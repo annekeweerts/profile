@@ -1,0 +1,151 @@
+/* Colors and Fonts */
+
+body{
+  background: #311F20;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #4C3739;
+  font-size: 15px;
+  line-height: 1.6em;
+  /*text-shadow: 1px 1px 1px #000000;*/
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #4C3739;
+  font-size: 24px;
+}
+
+h2{
+  color: #764139;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h4{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #4C3739;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/* components */
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+
+
+.card{
+  background: #FFFFFF /*rgba(76,55,57,1.0)*/;
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 500px;
+  box-shadow: 1px 1px 10px #000000;
+}
+
+.card2{
+  background: #FFFFFF /*rgba(76,55,57,1.0)*/;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 10px #000000;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle{
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #000000;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+#portfolio{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#portfolio img{
+  width: 150px;
+}
+#portfolio td{
+  padding: 10px;
+}
+
+/* specific background video css */
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(images/anneke.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(images/anneke.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+
+
